@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "workers-d1",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-01-24",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "D1DB",
+			"database_id": "dcf20279-3079-4348-a152-db0484177d5f"
+		}
+	],
+	"placement": {
+		"mode": "smart"
+	}
+}
