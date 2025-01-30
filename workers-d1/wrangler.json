@@ -9,8 +9,8 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "D1DB",
-			"database_id": "dcf20279-3079-4348-a152-db0484177d5f"
+			"database_name": "D1DB2",
+			"database_id": "dcf20279-3079-4348-a152-db0484177d5ff"
 		}
 	],
 	"placement": {
