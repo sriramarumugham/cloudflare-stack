@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "api-gateway",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-02-04",
+	"observability": {
+		"enabled": true
+	},
+	"services": [
+		{
+			"binding": "USER_SERVICE",
+			"service": "user-service"
+		},
+		{
+			"binding": "TENANT_SERVICE",
+			"service": "tenent-service"
+		}
+	]
+}
