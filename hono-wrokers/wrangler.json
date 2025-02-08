@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "hono-wrokers",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-02-04",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [{ "binding": "DB", "database_name": "prod-d1-example", "database_id": "4dc5937e-f869-4f98-b2c7-95c6d8ecb900" }],
+	"kv_namespaces": [
+		{ "binding": "KV_STORE", "id": "9c2fe078b8ee4f78859a29a511ca23d7" },
+		{ "binding": "APP_CONFIG", "id": "b1b5b926f6224ca682bd33e096b02bff" }
+	]
+}
